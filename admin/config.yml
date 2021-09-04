@@ -8,7 +8,7 @@ public_folder: '/img'
 collections: 
   - name: 'post'
     label: 'Post'
-    folder: 'content\post\{slug}'
+    folder: 'content/post'
     create: true
     fields:
     - { label: 'Author', name: 'author', widget: 'string' }
