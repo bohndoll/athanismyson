@@ -9,7 +9,7 @@ collections:
   - name: 'post'
     label: 'Post'
     folder: 'content/post'
-    path: '{{slug}}/index'
+    path: '{{slug}}'
     media_folder: ''
     public_folder: ''
     create: true
