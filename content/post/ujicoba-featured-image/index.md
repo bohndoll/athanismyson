@@ -10,13 +10,11 @@ tags:
 image: slide20.png
 license: Free
 ---
-# Ujicoba Featured Image
+## Ujicoba Featured Image Lagi
 
-Setelah perubahan `config.yml` lagi maka ujicoba ini bertujuan untuk mengetahui apakah featured image dapat ditampilkan sebagaimana yang diharapkan. 
+Setelah perubahan `config.yml` lagi maka ujicoba ini bertujuan untuk mengetahui apakah featured image dapat ditampilkan sebagaimana yang diharapkan.
 
 Berikut adalah isi dari `config.yml` yang diubah pada ujicoba ini.
-
-
 
 ```yaml
 media_folder: 'content/post/{{slug}}/' # Folder where user uploaded files should go
