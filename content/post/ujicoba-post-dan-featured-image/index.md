@@ -14,14 +14,14 @@ license: Free
 
 Ujicoba featured image sebelumnya belum berhasi padahal file `config.yml` sudah dicek dan nampaknya tidak ada error lagi.
 
-Berikut file `config.yml` pada ujicoba `featured image` sebelumnya 
+Berikut file `config.yml` pada ujicoba `featured image` sebelumnya
 
 ```yaml
 media_folder: 'content/post/{{slug}}/' # Folder where user uploaded files should go
 public_folder: '/img'
 ```
 
-Setelah ditelusuri ketemulah kemungkinan penyebab kenapa `featured image` tidak mau muncul. Tema [`stack`](https://docs.stack.jimmycai.com/) yang saya gunakan akan melakukan `render` pada setiap post dengan format nama `index.md` yang ada di folder `content\post`. 
+Setelah ditelusuri ketemulah kemungkinan penyebab kenapa `featured image` tidak mau muncul. Tema [`stack`](https://docs.stack.jimmycai.com/) yang saya gunakan akan melakukan `render` pada setiap post dengan format nama `index.md` yang ada di folder `content\post`.
 
 Pengaturan ujicoba featured image sebelum ini tidak mengubah nama file post menjadi `index.md` melainkan tetap sesuai dengan `slug`-nya.
 
@@ -45,4 +45,3 @@ collections:
 Semoga kali ini file konfigurasinya benar benar sehingga baik featured image maupun struktur postnya bisa muncul sesuai dengan keinginan.
 
 Cheers.
-
